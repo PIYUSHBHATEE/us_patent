@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+LICENSE.md
+
+# Test files
+test/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Development files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# PDFs and large files
+pdfs/
+*.pdf
+
+# Screenshots
+screencap.gif
+
+# Lock files (we'll copy uv.lock separately)
+# uv.lock
